@@ -3,8 +3,8 @@
 # Overview
 
 > **Relevant source files**
-> * [README.md](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/README.md)
-> * [pom.xml](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml)
+> * [README.md](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/README.md)
+> * [pom.xml](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml)
 
 本页面提供了对火车票预订系统（“huochpiaodingpiao”）的全面介绍，这是一个旨在简化火车票预订流程的全栈应用。本文档概述了该系统的用途、架构和核心组件。如需了解系统特定方面的详细信息，请参阅其对应的维基页面（见 [系统架构](/hjsdjko/huochpiaodingpiao/2-system-architecture)）。
 
@@ -12,9 +12,9 @@
 
 火车票预订系统是一个完整的基于网络的平台，能够使用户搜索列车时刻表、预订车票和管理预订。该系统通过用户账户余额处理用户注册、认证、列车时刻表管理、座位分配和支付处理。
 
-Sources: [pom.xml L15-L16](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L15-L16)
+Sources: [pom.xml L15-L16](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L15-L16)
 
- [README.md L32-L41](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/README.md#L32-L41)
+ [README.md L32-L41](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/README.md#L32-L41)
 
 ## System Architecture
 
@@ -57,11 +57,11 @@ DAOs["Data Access Objects (MyBatis)"]
 * **Database**: MySQL
 * **Environment**: JDK 1.8+, Maven
 
-Sources: [README.md L36-L40](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/README.md#L36-L40)
+Sources: [README.md L36-L40](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/README.md#L36-L40)
 
- [pom.xml L6-L9](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L6-L9)
+ [pom.xml L6-L9](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L6-L9)
 
- [pom.xml L25-L72](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L25-L72)
+ [pom.xml L25-L72](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L25-L72)
 
 ## Core Features
 
@@ -72,7 +72,7 @@ Sources: [README.md L36-L40](https://github.com/hjsdjko/huochpiaodingpiao/blob/2
 5. **支付处理**：管理用户账户余额用于购票
 6. **用户反馈**：用户沟通的消息系统
 
-Sources: [pom.xml L15-L16](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L15-L16)
+Sources: [pom.xml L15-L16](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L15-L16)
 
 ## Core Entities and Relationships
 
@@ -139,7 +139,7 @@ TokenService["TokenService"]
 
 如需更多详情，请参阅 [认证系统](/hjsdjko/huochpiaodingpiao/4-authentication-system)。
 
-Sources: [pom.xml L57-L61](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L57-L61)
+Sources: [pom.xml L57-L61](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L57-L61)
 
  - Shiro dependency indicating security framework
 
@@ -170,7 +170,7 @@ The system uses several configuration approaches:
 
 For more information on configuration options, see [Configuration System](/hjsdjko/huochpiaodingpiao/2.1-configuration-system) and [Dictionary System](/hjsdjko/huochpiaodingpiao/2.2-dictionary-system).
 
-Sources: [pom.xml L64-L72](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L64-L72)
+Sources: [pom.xml L64-L72](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L64-L72)
 
 - MyBatis-Plus依赖项建议高级ORM配置
 
@@ -181,7 +181,7 @@ Sources: [pom.xml L64-L72](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f6
 * **RESTful API设计**：用于前端集成的标准化API端点
 **基于令牌的安全性**：安全的认证机制
 
-Sources: [pom.xml L64-L72](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L64-L72)
+Sources: [pom.xml L64-L72](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L64-L72)
 
 - MyBatis-Plus 依赖项，表明增强的 ORM 功能
 
@@ -195,10 +195,10 @@ Sources: [pom.xml L64-L72](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f6
 # System Architecture
 
 > **Relevant source files**
-> * [README.md](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/README.md)
-> * [pom.xml](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml)
-> * [src/main/java/com/config/InterceptorConfig.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java)
-> * [src/main/java/com/config/MybatisPlusConfig.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/MybatisPlusConfig.java)
+> * [README.md](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/README.md)
+> * [pom.xml](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml)
+> * [src/main/java/com/config/InterceptorConfig.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java)
+> * [src/main/java/com/config/MybatisPlusConfig.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/MybatisPlusConfig.java)
 
 ## Purpose and Scope
 
@@ -244,9 +244,9 @@ MySQL["MySQL Database"]
     MyBatisPlus --> MySQL
 ```
 
-Sources: [README.md L34-L40](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/README.md#L34-L40)
+Sources: [README.md L34-L40](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/README.md#L34-L40)
 
- [pom.xml L1-L182](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L1-L182)
+ [pom.xml L1-L182](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L1-L182)
 
 ## Technology Stack
 
@@ -260,9 +260,9 @@ Sources: [README.md L34-L40](https://github.com/hjsdjko/huochpiaodingpiao/blob/2
 | Build Tool | Maven |
 | Runtime Environment | JDK 1.8+ |
 
-Sources: [README.md L34-L40](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/README.md#L34-L40)
+Sources: [README.md L34-L40](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/README.md#L34-L40)
 
- [pom.xml L12-L16](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L12-L16)
+ [pom.xml L12-L16](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L12-L16)
 
 ## Backend Architecture
 
@@ -293,9 +293,9 @@ Interceptors["Interceptors"]
     Interceptors --> Controllers
 ```
 
-Sources: [pom.xml L24-L37](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L24-L37)
+Sources: [pom.xml L24-L37](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L24-L37)
 
- [src/main/java/com/config/InterceptorConfig.java L1-L39](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L1-L39)
+ [src/main/java/com/config/InterceptorConfig.java L1-L39](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L1-L39)
 
 ### Controller-Service-DAO Pattern
 
@@ -348,7 +348,7 @@ DictionaryDAO["DictionaryDao"]
     DictionaryService --> DictionaryDAO
 ```
 
-Sources: [pom.xml L63-L72](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L63-L72)
+Sources: [pom.xml L63-L72](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L63-L72)
 
 ## Data Access Layer
 
@@ -378,9 +378,9 @@ MySQL["MySQL Database"]
     EntityMapper --> MySQL
 ```
 
-Sources: [src/main/java/com/config/MybatisPlusConfig.java L1-L24](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/MybatisPlusConfig.java#L1-L24)
+Sources: [src/main/java/com/config/MybatisPlusConfig.java L1-L24](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/MybatisPlusConfig.java#L1-L24)
 
- [pom.xml L63-L72](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/pom.xml#L63-L72)
+ [pom.xml L63-L72](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/pom.xml#L63-L72)
 
 ### Entity Relationships
 
@@ -417,7 +417,7 @@ Forbidden["Return 403 Forbidden"]
     CheckRole --> Forbidden
 ```
 
-Sources: [src/main/java/com/config/InterceptorConfig.java L9-L17](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L9-L17)
+Sources: [src/main/java/com/config/InterceptorConfig.java L9-L17](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L9-L17)
 
 ## Request Processing Flow
 
@@ -451,7 +451,7 @@ sequenceDiagram
   FE->Client: HTTP Response
 ```
 
-Sources: [src/main/java/com/config/InterceptorConfig.java L19-L23](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L19-L23)
+Sources: [src/main/java/com/config/InterceptorConfig.java L19-L23](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L19-L23)
 
 ## Resource Management
 
@@ -483,7 +483,7 @@ Resources6["classpath:/public/"]
     Resources --> Resources6
 ```
 
-Sources: [src/main/java/com/config/InterceptorConfig.java L25-L38](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L25-L38)
+Sources: [src/main/java/com/config/InterceptorConfig.java L25-L38](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L25-L38)
 
 ## Frontend Architecture
 
@@ -498,7 +498,7 @@ Sources: [src/main/java/com/config/InterceptorConfig.java L25-L38](https://githu
 
 Sources: [README.md
 
-36](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/README.md#L36-L36)
+36](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/README.md#L36-L36)
 
 ## Summary
 
@@ -521,10 +521,10 @@ This architecture allows for:
 # Configuration System
 
 > **Relevant source files**
-> * [src/main/java/com/config/MyMetaObjectHandler.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/MyMetaObjectHandler.java)
-> * [src/main/java/com/controller/ConfigController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java)
-> * [src/main/java/com/dao/ConfigDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/ConfigDao.java)
-> * [src/main/java/com/entity/ConfigEntity.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/ConfigEntity.java)
+> * [src/main/java/com/config/MyMetaObjectHandler.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/MyMetaObjectHandler.java)
+> * [src/main/java/com/controller/ConfigController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java)
+> * [src/main/java/com/dao/ConfigDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/ConfigDao.java)
+> * [src/main/java/com/entity/ConfigEntity.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/ConfigEntity.java)
 
 ## Purpose and Scope
 
@@ -544,7 +544,7 @@ Where:
 * `name`: 配置键标识符（例如，“faceFile”）
 * `value`: 存储的配置值
 
-Sources: [src/main/java/com/entity/ConfigEntity.java L15-L55](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/ConfigEntity.java#L15-L55)
+Sources: [src/main/java/com/entity/ConfigEntity.java L15-L55](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/ConfigEntity.java#L15-L55)
 
 ## System Architecture
 
@@ -575,11 +575,11 @@ DB["config table"]
     CD --> DB
 ```
 
-Sources: [src/main/java/com/controller/ConfigController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java)
+Sources: [src/main/java/com/controller/ConfigController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java)
 
- [src/main/java/com/dao/ConfigDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/ConfigDao.java)
+ [src/main/java/com/dao/ConfigDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/ConfigDao.java)
 
- [src/main/java/com/entity/ConfigEntity.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/ConfigEntity.java)
+ [src/main/java/com/entity/ConfigEntity.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/ConfigEntity.java)
 
 ## API Endpoints
 
@@ -596,7 +596,7 @@ Sources: [src/main/java/com/controller/ConfigController.java](https://github.com
 | `/config/update` | POST | Yes | Update existing configuration |
 | `/config/delete` | POST | Yes | Delete configurations by IDs |
 
-Sources: [src/main/java/com/controller/ConfigController.java L37-L110](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L37-L110)
+Sources: [src/main/java/com/controller/ConfigController.java L37-L110](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L37-L110)
 
 ## Request Flow
 
@@ -621,7 +621,7 @@ sequenceDiagram
   _ConfigController_-->_Client_: JSON response with config data
 ```
 
-Sources: [src/main/java/com/controller/ConfigController.java L77-L81](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L77-L81)
+Sources: [src/main/java/com/controller/ConfigController.java L77-L81](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L77-L81)
 
 ## Implementation Details
 
@@ -640,7 +640,7 @@ public class ConfigEntity implements Serializable {
 }
 ```
 
-Sources: [src/main/java/com/entity/ConfigEntity.java L14-L54](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/ConfigEntity.java#L14-L54)
+Sources: [src/main/java/com/entity/ConfigEntity.java L14-L54](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/ConfigEntity.java#L14-L54)
 
 ### Data Access Layer
 
@@ -659,7 +659,7 @@ public interface ConfigDao extends BaseMapper<ConfigEntity> {
 * `selectOne(EntityWrapper<ConfigEntity> wrapper)`
 * `deleteBatchIds(List<Long> ids)`
 
-Sources: [src/main/java/com/dao/ConfigDao.java L10-L12](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/ConfigDao.java#L10-L12)
+Sources: [src/main/java/com/dao/ConfigDao.java L10-L12](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/ConfigDao.java#L10-L12)
 
 ### Controller Implementation
 
@@ -695,7 +695,7 @@ public R infoByName(@RequestParam String name) {
 }
 ```
 
-Sources: [src/main/java/com/controller/ConfigController.java L37-L110](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L37-L110)
+Sources: [src/main/java/com/controller/ConfigController.java L37-L110](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L37-L110)
 
 ## Access Control
 
@@ -707,11 +707,11 @@ Sources: [src/main/java/com/controller/ConfigController.java L37-L110](https://g
 
 Sources: [src/main/java/com/controller/ConfigController.java
 
-47](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L47-L47)
+47](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L47-L47)
 
  [src/main/java/com/controller/ConfigController.java
 
-67](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L67-L67)
+67](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L67-L67)
 
 ## Configuration Usage
 
@@ -727,7 +727,7 @@ public R infoByName(@RequestParam String name) {
 }
 ```
 
-Sources: [src/main/java/com/controller/ConfigController.java L77-L81](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L77-L81)
+Sources: [src/main/java/com/controller/ConfigController.java L77-L81](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L77-L81)
 
 ## Integration with MyBatis-Plus
 
@@ -739,17 +739,17 @@ Sources: [src/main/java/com/controller/ConfigController.java L77-L81](https://gi
 
 如需了解该配置系统所融入的更广泛系统架构信息，请参见 [系统架构](/hjsdjko/huochpiaodingpiao/2-system-architecture)。
 
-Sources: [src/main/java/com/dao/ConfigDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/ConfigDao.java)
+Sources: [src/main/java/com/dao/ConfigDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/ConfigDao.java)
 
- [src/main/java/com/controller/ConfigController.java L39-L41](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L39-L41)
+ [src/main/java/com/controller/ConfigController.java L39-L41](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L39-L41)
 
 # Dictionary-System.md
 # Dictionary System
 
 > **Relevant source files**
-> * [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java)
-> * [src/main/java/com/controller/DictionaryController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java)
-> * [src/main/java/com/dao/DictionaryDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/DictionaryDao.java)
+> * [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java)
+> * [src/main/java/com/controller/DictionaryController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java)
+> * [src/main/java/com/dao/DictionaryDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/DictionaryDao.java)
 
 ## Purpose and Scope
 
@@ -757,9 +757,9 @@ Sources: [src/main/java/com/dao/ConfigDao.java](https://github.com/hjsdjko/huoch
 
 本文档涵盖词典系统的架构、数据库结构、初始化过程和使用模式。如需了解更广泛的配置系统信息，请参见 [配置系统](/hjsdjko/huochpiaodingpiao/2.1-configuration-system)。
 
-Sources: [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L19-L22](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L19-L22)
+Sources: [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L19-L22](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L19-L22)
 
- [src/main/java/com/controller/DictionaryController.java L35-L40](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L35-L40)
+ [src/main/java/com/controller/DictionaryController.java L35-L40](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L35-L40)
 
 ## Dictionary Data Structure
 
@@ -776,11 +776,11 @@ Sources: [src/main/java/com/ServletContextListener/DictionaryServletContextListe
 | `beizhu` | Comments or notes |
 | `createTime` | Creation timestamp |
 
-Sources: [src/main/java/com/dao/DictionaryDao.java L13-L16](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/DictionaryDao.java#L13-L16)
+Sources: [src/main/java/com/dao/DictionaryDao.java L13-L16](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/DictionaryDao.java#L13-L16)
 
- [src/main/java/com/controller/DictionaryController.java L113-L119](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L113-L119)
+ [src/main/java/com/controller/DictionaryController.java L113-L119](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L113-L119)
 
- [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L40-L46](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L40-L46)
+ [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L40-L46](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L40-L46)
 
 ## System Architecture
 
@@ -818,9 +818,9 @@ UIComponents["UI Dropdowns & Labels"]
     MemCache --> UIComponents
 ```
 
-Sources: [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L32-L49](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L32-L49)
+Sources: [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L32-L49](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L32-L49)
 
- [src/main/java/com/controller/DictionaryController.java L41-L44](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L41-L44)
+ [src/main/java/com/controller/DictionaryController.java L41-L44](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L41-L44)
 
 ## Dictionary Initialization Process
 
@@ -876,9 +876,9 @@ For example:
 }
 ```
 
-Sources: [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L32-L49](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L32-L49)
+Sources: [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L32-L49](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L32-L49)
 
- [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L37-L48](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L37-L48)
+ [src/main/java/com/ServletContextListener/DictionaryServletContextListener.java L37-L48](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/ServletContextListener/DictionaryServletContextListener.java#L37-L48)
 
 ## Dictionary Management API
 
@@ -903,11 +903,11 @@ Sources: [src/main/java/com/ServletContextListener/DictionaryServletContextListe
 
 这确保了内存缓存与数据库保持同步。
 
-Sources: [src/main/java/com/controller/DictionaryController.java L63-L271](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L63-L271)
+Sources: [src/main/java/com/controller/DictionaryController.java L63-L271](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L63-L271)
 
- [src/main/java/com/controller/DictionaryController.java L126-L138](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L126-L138)
+ [src/main/java/com/controller/DictionaryController.java L126-L138](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L126-L138)
 
- [src/main/java/com/controller/DictionaryController.java L168-L182](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L168-L182)
+ [src/main/java/com/controller/DictionaryController.java L168-L182](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L168-L182)
 
 ## Usage in the Application
 
@@ -939,13 +939,13 @@ Client["Client Application"]
 
 对于分层字典（通过包含"_erji_types"的代码标识），系统使用`superId`字段来维护父子关系。这支持UI中的依赖下拉框，选择父级值后会过滤可用的子级选项。
 
-Sources: [src/main/java/com/controller/DictionaryController.java L72-L77](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L72-L77)
+Sources: [src/main/java/com/controller/DictionaryController.java L72-L77](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L72-L77)
 
- [src/main/java/com/controller/DictionaryController.java L93-L94](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L93-L94)
+ [src/main/java/com/controller/DictionaryController.java L93-L94](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L93-L94)
 
- [src/main/java/com/controller/DictionaryController.java L113-L119](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L113-L119)
+ [src/main/java/com/controller/DictionaryController.java L113-L119](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L113-L119)
 
- [src/main/java/com/controller/DictionaryController.java L162-L164](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L162-L164)
+ [src/main/java/com/controller/DictionaryController.java L162-L164](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L162-L164)
 
 ## Special Handling for Hierarchical Dictionaries
 
@@ -956,9 +956,9 @@ Sources: [src/main/java/com/controller/DictionaryController.java L72-L77](https:
 
 这允许相同的 `codeIndex` 和 `indexName` 存在于不同的父级条目下，从而支持地理层级（省/城市）或产品分类/子分类等复杂的數據結構。
 
-Sources: [src/main/java/com/controller/DictionaryController.java L117-L119](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L117-L119)
+Sources: [src/main/java/com/controller/DictionaryController.java L117-L119](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L117-L119)
 
- [src/main/java/com/controller/DictionaryController.java L162-L164](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L162-L164)
+ [src/main/java/com/controller/DictionaryController.java L162-L164](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L162-L164)
 
 ## Dictionary System Security
 
@@ -970,11 +970,11 @@ Sources: [src/main/java/com/controller/DictionaryController.java L117-L119](http
 
 Sources: [src/main/java/com/controller/DictionaryController.java
 
-64](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L64-L64)
+64](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L64-L64)
 
- [src/main/java/com/controller/DictionaryController.java L109-L110](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L109-L110)
+ [src/main/java/com/controller/DictionaryController.java L109-L110](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L109-L110)
 
- [src/main/java/com/controller/DictionaryController.java L152-L154](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L152-L154)
+ [src/main/java/com/controller/DictionaryController.java L152-L154](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L152-L154)
 
 ## Conclusion
 
@@ -984,9 +984,9 @@ Sources: [src/main/java/com/controller/DictionaryController.java
 # Core Entities
 
 > **Relevant source files**
-> * [src/main/java/com/dao/YonghuDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java)
-> * [src/main/java/com/entity/CheciEntity.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java)
-> * [src/main/java/com/entity/CheciOrderEntity.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java)
+> * [src/main/java/com/dao/YonghuDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java)
+> * [src/main/java/com/entity/CheciEntity.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java)
+> * [src/main/java/com/entity/CheciOrderEntity.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java)
 
 本页文档说明火车票预订系统中的主要数据实体及其关系。这些实体构成了系统数据模型的基础，对于理解数据在应用程序中的流动至关重要。
 
@@ -1006,11 +1006,11 @@ Sources: [src/main/java/com/controller/DictionaryController.java
 
 ```
 
-Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L30-L367)
+Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L30-L367)
 
- [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
+ [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
 
- [src/main/java/com/dao/YonghuDao.java L12-L21](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L12-L21)
+ [src/main/java/com/dao/YonghuDao.java L12-L21](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L12-L21)
 
 ## Entity Details
 
@@ -1037,7 +1037,7 @@ Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com
 | checiContent | String | Details of stops and arrival times |
 | createTime | Date | Record creation timestamp |
 
-Sources: [src/main/java/com/entity/CheciEntity.java L47-L162](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L47-L162)
+Sources: [src/main/java/com/entity/CheciEntity.java L47-L162](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L47-L162)
 
 ### User (Yonghu)
 
@@ -1056,7 +1056,7 @@ Sources: [src/main/java/com/entity/CheciEntity.java L47-L162](https://github.com
 | yonghuDelete | Integer | Logical deletion flag (soft delete) |
 | createTime | Date | Account creation timestamp |
 
-Sources: [src/main/java/com/dao/YonghuDao.java L12-L21](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L12-L21)
+Sources: [src/main/java/com/dao/YonghuDao.java L12-L21](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L12-L21)
 
 ### Ticket Order (CheciOrder)
 
@@ -1078,7 +1078,7 @@ Sources: [src/main/java/com/dao/YonghuDao.java L12-L21](https://github.com/hjsdj
 | insertTime | Date | Order creation timestamp |
 | createTime | Date | Record creation timestamp |
 
-Sources: [src/main/java/com/entity/CheciOrderEntity.java L47-L140](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L47-L140)
+Sources: [src/main/java/com/entity/CheciOrderEntity.java L47-L140](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L47-L140)
 
 ## Entity Relationships
 
@@ -1088,11 +1088,11 @@ Sources: [src/main/java/com/entity/CheciOrderEntity.java L47-L140](https://githu
 #mermaid-pypxawyptj{font-family:ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-pypxawyptj .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-pypxawyptj .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-pypxawyptj .error-icon{fill:#dddddd;}#mermaid-pypxawyptj .error-text{fill:#222222;stroke:#222222;}#mermaid-pypxawyptj .edge-thickness-normal{stroke-width:1px;}#mermaid-pypxawyptj .edge-thickness-thick{stroke-width:3.5px;}#mermaid-pypxawyptj .edge-pattern-solid{stroke-dasharray:0;}#mermaid-pypxawyptj .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-pypxawyptj .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-pypxawyptj .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-pypxawyptj .marker{fill:#999;stroke:#999;}#mermaid-pypxawyptj .marker.cross{stroke:#999;}#mermaid-pypxawyptj svg{font-family:ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica;font-size:16px;}#mermaid-pypxawyptj p{margin:0;}#mermaid-pypxawyptj .entityBox{fill:#ffffff;stroke:#dddddd;}#mermaid-pypxawyptj .relationshipLabelBox{fill:#dddddd;opacity:0.7;background-color:#dddddd;}#mermaid-pypxawyptj .relationshipLabelBox rect{opacity:0.5;}#mermaid-pypxawyptj .labelBkg{background-color:rgba(221, 221, 221, 0.5);}#mermaid-pypxawyptj .edgeLabel .label{fill:#dddddd;font-size:14px;}#mermaid-pypxawyptj .label{font-family:ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica;color:#333;}#mermaid-pypxawyptj .edge-pattern-dashed{stroke-dasharray:8,8;}#mermaid-pypxawyptj .node rect,#mermaid-pypxawyptj .node circle,#mermaid-pypxawyptj .node ellipse,#mermaid-pypxawyptj .node polygon{fill:#ffffff;stroke:#dddddd;stroke-width:1px;}#mermaid-pypxawyptj .relationshipLine{stroke:#999;stroke-width:1;fill:none;}#mermaid-pypxawyptj .marker{fill:none!important;stroke:#999!important;stroke-width:1;}#mermaid-pypxawyptj :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}placesfulfillsYONGHUintidPKstringusernamestringpasswordfloatnewMoneystringyonghuPhonestringyonghuIdNumberintyonghuDeletedatecreateTimeCHECI_ORDERintidPKstringcheciOrderUuidNumberintcheciIdFKintyonghuIdFKdoublecheciOrderTruePriceintcheciOrderTypesintbuySectionNumberstringbuyZuoweiNumberdatebuyZuoweiTimedateinsertTimedatecreateTimeCHECIintidPKstringcheciNamestringcheciPhotointcheciTypesdoublecheciNewMoneystringcheciChufadistringcheciMudididatecheciTimeintsectionNumberintzuoweiNumberintshangxiaTypesintcheciDeletestringcheciContentdatecreateTime
 ```
 
-Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L30-L367)
+Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L30-L367)
 
- [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
+ [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
 
- [src/main/java/com/dao/YonghuDao.java L12-L21](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L12-L21)
+ [src/main/java/com/dao/YonghuDao.java L12-L21](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L12-L21)
 
 ## Persistence Layer Implementation
 
@@ -1114,11 +1114,11 @@ Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com
 
 ```
 
-Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L30-L367)
+Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L30-L367)
 
- [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
+ [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
 
- [src/main/java/com/dao/YonghuDao.java L12-L21](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L12-L21)
+ [src/main/java/com/dao/YonghuDao.java L12-L21](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L12-L21)
 
 ## Technical Implementation Details
 
@@ -1158,7 +1158,7 @@ public class CheciEntity<T> implements Serializable {
 }
 ```
 
-Sources: [src/main/java/com/entity/CheciEntity.java L29-L45](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L29-L45)
+Sources: [src/main/java/com/entity/CheciEntity.java L29-L45](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L29-L45)
 
 ### Soft Delete Pattern
 
@@ -1169,7 +1169,7 @@ Sources: [src/main/java/com/entity/CheciEntity.java L29-L45](https://github.com/
 
 这使得系统能够在不从数据库中物理删除记录的情况下标记记录为已删除，从而保持数据完整性并实现潜在的数据恢复。
 
-Sources: [src/main/java/com/entity/CheciEntity.java L139-L144](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L139-L144)
+Sources: [src/main/java/com/entity/CheciEntity.java L139-L144](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L139-L144)
 
 ## Practical Application
 
@@ -1187,12 +1187,12 @@ For more details on how these entities are used in the ticket booking process, s
 # Authentication System
 
 > **Relevant source files**
-> * [src/main/java/com/annotation/APPLoginUser.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/APPLoginUser.java)
-> * [src/main/java/com/annotation/IgnoreAuth.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/IgnoreAuth.java)
-> * [src/main/java/com/annotation/LoginUser.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/LoginUser.java)
-> * [src/main/java/com/config/InterceptorConfig.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java)
-> * [src/main/java/com/controller/UsersController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java)
-> * [src/main/java/com/dao/TokenDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/TokenDao.java)
+> * [src/main/java/com/annotation/APPLoginUser.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/APPLoginUser.java)
+> * [src/main/java/com/annotation/IgnoreAuth.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/IgnoreAuth.java)
+> * [src/main/java/com/annotation/LoginUser.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/LoginUser.java)
+> * [src/main/java/com/config/InterceptorConfig.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java)
+> * [src/main/java/com/controller/UsersController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java)
+> * [src/main/java/com/dao/TokenDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/TokenDao.java)
 
 本页文档说明火车票预订系统中使用的基于令牌的认证和授权机制。它解释了认证流程、核心组件以及保障应用程序安全的流程。
 
@@ -1224,9 +1224,9 @@ F["Protected Resources"]
     E --> F
 ```
 
-Sources: [src/main/java/com/controller/UsersController.java L41-L57](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L57)
+Sources: [src/main/java/com/controller/UsersController.java L41-L57](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L57)
 
- [src/main/java/com/config/InterceptorConfig.java L12-L23](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L12-L23)
+ [src/main/java/com/config/InterceptorConfig.java L12-L23](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L12-L23)
 
 ## Core Components
 
@@ -1261,11 +1261,11 @@ classDiagram
     }
 ```
 
-Sources: [src/main/java/com/annotation/IgnoreAuth.java L1-L14](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/IgnoreAuth.java#L1-L14)
+Sources: [src/main/java/com/annotation/IgnoreAuth.java L1-L14](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/IgnoreAuth.java#L1-L14)
 
- [src/main/java/com/annotation/LoginUser.java L1-L16](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/LoginUser.java#L1-L16)
+ [src/main/java/com/annotation/LoginUser.java L1-L16](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/LoginUser.java#L1-L16)
 
- [src/main/java/com/annotation/APPLoginUser.java L1-L16](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/APPLoginUser.java#L1-L16)
+ [src/main/java/com/annotation/APPLoginUser.java L1-L16](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/APPLoginUser.java#L1-L16)
 
 ### 2. Authorization Interceptor
 
@@ -1296,7 +1296,7 @@ F["Return 403 Forbidden"]
     C3 --> P
 ```
 
-Sources: [src/main/java/com/config/InterceptorConfig.java L1-L39](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L1-L39)
+Sources: [src/main/java/com/config/InterceptorConfig.java L1-L39](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L1-L39)
 
 ### 3. Token Service
 
@@ -1331,7 +1331,7 @@ classDiagram
     TokenDao --> TokenEntity : manages
 ```
 
-Sources: [src/main/java/com/dao/TokenDao.java L1-L23](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/TokenDao.java#L1-L23)
+Sources: [src/main/java/com/dao/TokenDao.java L1-L23](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/TokenDao.java#L1-L23)
 
 ## Authentication Process
 
@@ -1363,7 +1363,7 @@ sequenceDiagram
   UsersController-->Client: Return token, role, userId
 ```
 
-Sources: [src/main/java/com/controller/UsersController.java L41-L57](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L57)
+Sources: [src/main/java/com/controller/UsersController.java L41-L57](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L57)
 
 ### Token Validation
 
@@ -1383,7 +1383,7 @@ For each protected request:
 1. 通过 `/users/session` 端点获取当前用户信息
 2. 通过/users/logout端点进行注销，该操作会使会话失效
 
-Sources: [src/main/java/com/controller/UsersController.java L73-L134](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L73-L134)
+Sources: [src/main/java/com/controller/UsersController.java L73-L134](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L73-L134)
 
 ## API Reference
 
@@ -1397,7 +1397,7 @@ Sources: [src/main/java/com/controller/UsersController.java L73-L134](https://gi
 | `/users/resetPass` | POST | Resets user password to default "123456" | No |
 | `/users/session` | GET | Retrieves current user information | Yes |
 
-Sources: [src/main/java/com/controller/UsersController.java L31-L168](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L31-L168)
+Sources: [src/main/java/com/controller/UsersController.java L31-L168](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L31-L168)
 
 ## Security Considerations
 
@@ -1414,9 +1414,9 @@ Sources: [src/main/java/com/controller/UsersController.java L31-L168](https://gi
 * 受限的端点通过 `@IgnoreAuth` 标记以允许公共访问
 这些包括登录、注册和密码重置端点
 
-Sources: [src/main/java/com/controller/UsersController.java L86-L95](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L86-L95)
+Sources: [src/main/java/com/controller/UsersController.java L86-L95](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L86-L95)
 
- [src/main/java/com/annotation/IgnoreAuth.java L1-L14](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/IgnoreAuth.java#L1-L14)
+ [src/main/java/com/annotation/IgnoreAuth.java L1-L14](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/annotation/IgnoreAuth.java#L1-L14)
 
 ## Integration with Other Modules
 
@@ -1452,7 +1452,7 @@ F["CheciOrderController"]
     F --> C
 ```
 
-Sources: [src/main/java/com/config/InterceptorConfig.java L19-L23](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L19-L23)
+Sources: [src/main/java/com/config/InterceptorConfig.java L19-L23](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/config/InterceptorConfig.java#L19-L23)
 
 认证系统为列车票预订应用的所有模块提供安全访问的基础，确保资源免受未经授权的访问，同时允许合法用户与系统交互。
 
@@ -1460,9 +1460,9 @@ Sources: [src/main/java/com/config/InterceptorConfig.java L19-L23](https://githu
 # User Management
 
 > **Relevant source files**
-> * [src/main/java/com/controller/UsersController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java)
-> * [src/main/java/com/controller/YonghuController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java)
-> * [src/main/java/com/dao/YonghuDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java)
+> * [src/main/java/com/controller/UsersController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java)
+> * [src/main/java/com/controller/YonghuController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java)
+> * [src/main/java/com/dao/YonghuDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java)
 
 本文件描述了火车票预订应用中的用户管理系统。它涵盖了系统中的两种不同用户类型、认证机制、注册流程、用户操作以及用户管理与其他应用部分的集成方式。
 
@@ -1481,9 +1481,9 @@ Sources: [src/main/java/com/config/InterceptorConfig.java L19-L23](https://githu
 
 ```
 
-Sources: [src/main/java/com/controller/UsersController.java L22-L23](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L22-L23)
+Sources: [src/main/java/com/controller/UsersController.java L22-L23](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L22-L23)
 
- [src/main/java/com/controller/YonghuController.java L28-L33](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L28-L33)
+ [src/main/java/com/controller/YonghuController.java L28-L33](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L28-L33)
 
 ## 2. Authentication System
 
@@ -1517,9 +1517,9 @@ sequenceDiagram
   ctrl-->client: Return token and user info
 ```
 
-Sources: [src/main/java/com/controller/UsersController.java L41-L57](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L57)
+Sources: [src/main/java/com/controller/UsersController.java L41-L57](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L57)
 
- [src/main/java/com/controller/YonghuController.java L310-L334](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L310-L334)
+ [src/main/java/com/controller/YonghuController.java L310-L334](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L310-L334)
 
 ## 3. User Registration
 
@@ -1562,9 +1562,9 @@ J["ID Number Check"]
 * 删除标志 (`yonghuDelete`): 1 (启用)
 * 创建时间戳：当前日期/时间
 
-Sources: [src/main/java/com/controller/YonghuController.java L338-L360](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L338-L360)
+Sources: [src/main/java/com/controller/YonghuController.java L338-L360](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L338-L360)
 
- [src/main/java/com/controller/UsersController.java L59-L71](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L59-L71)
+ [src/main/java/com/controller/UsersController.java L59-L71](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L59-L71)
 
 ## 4. User Management Operations
 
@@ -1581,7 +1581,7 @@ Sources: [src/main/java/com/controller/YonghuController.java L338-L360](https://
 | Delete Users | `/users/delete` | Batch delete users by IDs |
 | Reset Password | `/users/resetPass` | Reset password to "123456" |
 
-Sources: [src/main/java/com/controller/UsersController.java L97-L167](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L97-L167)
+Sources: [src/main/java/com/controller/UsersController.java L97-L167](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L97-L167)
 
 ### 4.2 Member (Customer) Management
 
@@ -1601,9 +1601,9 @@ Sources: [src/main/java/com/controller/UsersController.java L97-L167](https://gi
 
 请注意，成员删除通过将 `yonghuDelete` 标志设置为2实现软删除，从而在数据库中保留记录。
 
-Sources: [src/main/java/com/controller/YonghuController.java L62-L198](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L62-L198)
+Sources: [src/main/java/com/controller/YonghuController.java L62-L198](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L62-L198)
 
- [src/main/java/com/controller/YonghuController.java L362-L423](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L362-L423)
+ [src/main/java/com/controller/YonghuController.java L362-L423](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L362-L423)
 
 ## 5. Member Balance Management
 
@@ -1617,7 +1617,7 @@ Sources: [src/main/java/com/controller/YonghuController.java L62-L198](https://g
 
 Sources: [src/main/java/com/controller/YonghuController.java
 
-355](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L355-L355)
+355](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L355-L355)
 
 ## 6. Data Model Integration
 
@@ -1634,7 +1634,7 @@ DAO层同时支持实体模型和视图模型：
 * `YonghuEntity`: Database model
 `YonghuView`: 带有字典转换的显示模型
 
-Sources: [src/main/java/com/dao/YonghuDao.java L1-L22](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L1-L22)
+Sources: [src/main/java/com/dao/YonghuDao.java L1-L22](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/YonghuDao.java#L1-L22)
 
 ## 7. Dictionary Integration
 
@@ -1652,9 +1652,9 @@ dictionaryService.dictionaryConvert(view, request);
 
 这确保了用户属性在整个应用程序中的一致显示。
 
-Sources: [src/main/java/com/controller/YonghuController.java L79-L82](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L79-L82)
+Sources: [src/main/java/com/controller/YonghuController.java L79-L82](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L79-L82)
 
- [src/main/java/com/controller/YonghuController.java L98-L100](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L98-L100)
+ [src/main/java/com/controller/YonghuController.java L98-L100](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L98-L100)
 
 ## 8. Security Considerations
 
@@ -1680,9 +1680,9 @@ Sources: [src/main/java/com/controller/YonghuController.java L79-L82](https://gi
 * 唯一电话号码验证
 * 唯一标识号验证
 
-Sources: [src/main/java/com/controller/UsersController.java L44-L57](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L44-L57)
+Sources: [src/main/java/com/controller/UsersController.java L44-L57](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L44-L57)
 
- [src/main/java/com/controller/YonghuController.java L313-L334](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L313-L334)
+ [src/main/java/com/controller/YonghuController.java L313-L334](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L313-L334)
 
 ## 9. Integration with Ticket Booking
 
@@ -1728,15 +1728,15 @@ K["Confirm Booking"]
 
 Sources: [src/main/java/com/controller/YonghuController.java
 
-355](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L355-L355)
+355](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L355-L355)
 
 # Train-Management.md
 # Train Management
 
 > **Relevant source files**
-> * [src/main/java/com/controller/CheciController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java)
-> * [src/main/java/com/dao/CheciDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CheciDao.java)
-> * [src/main/java/com/entity/CheciEntity.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java)
+> * [src/main/java/com/controller/CheciController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java)
+> * [src/main/java/com/dao/CheciDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CheciDao.java)
+> * [src/main/java/com/entity/CheciEntity.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java)
 
 ## Purpose and Scope
 
@@ -1744,9 +1744,9 @@ Sources: [src/main/java/com/controller/YonghuController.java
 
 如需了解实际的购票流程，请参见 [Ticket Booking Process](/hjsdjko/huochpiaodingpiao/7-ticket-booking-process)。
 
-Sources: [src/main/java/com/entity/CheciEntity.java L23-L29](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L23-L29)
+Sources: [src/main/java/com/entity/CheciEntity.java L23-L29](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L23-L29)
 
- [src/main/java/com/controller/CheciController.java L35-L40](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L35-L40)
+ [src/main/java/com/controller/CheciController.java L35-L40](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L35-L40)
 
 ## Train Entity Model
 
@@ -1771,7 +1771,7 @@ Sources: [src/main/java/com/entity/CheciEntity.java L23-L29](https://github.com/
 | checiContent | Detailed information about stops | String |
 | createTime | Record creation timestamp | Date |
 
-Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L30-L367)
+Sources: [src/main/java/com/entity/CheciEntity.java L30-L367](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L30-L367)
 
 ### Train Entity Relationships
 
@@ -1816,7 +1816,7 @@ classDiagram
     CheciEntity -- DictionaryEntity : "references for checiTypes"
 ```
 
-Sources: [src/main/java/com/entity/CheciEntity.java L47-L162](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L47-L162)
+Sources: [src/main/java/com/entity/CheciEntity.java L47-L162](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L47-L162)
 
 ## Train Management Architecture
 
@@ -1853,9 +1853,9 @@ Database["MySQL Database"]
     CheciDao --> Database
 ```
 
-Sources: [src/main/java/com/controller/CheciController.java L41-L44](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L41-L44)
+Sources: [src/main/java/com/controller/CheciController.java L41-L44](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L41-L44)
 
- [src/main/java/com/dao/CheciDao.java L12-L17](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CheciDao.java#L12-L17)
+ [src/main/java/com/dao/CheciDao.java L12-L17](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CheciDao.java#L12-L17)
 
 ## REST API Endpoints
 
@@ -1880,7 +1880,7 @@ Sources: [src/main/java/com/controller/CheciController.java L41-L44](https://git
 | `/checi/detail/{id}` | GET | Gets detailed information about a specific train for user display |
 | `/checi/add` | POST | Creates a new train record from the frontend |
 
-Sources: [src/main/java/com/controller/CheciController.java L62-L338](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L62-L338)
+Sources: [src/main/java/com/controller/CheciController.java L62-L338](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L62-L338)
 
 ## Core Operations
 
@@ -1917,9 +1917,9 @@ sequenceDiagram
   CheciController-->Client: JSON response with pagination
 ```
 
-Sources: [src/main/java/com/controller/CheciController.java L65-L85](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L65-L85)
+Sources: [src/main/java/com/controller/CheciController.java L65-L85](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L65-L85)
 
- [src/main/java/com/controller/CheciController.java L269-L285](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L269-L285)
+ [src/main/java/com/controller/CheciController.java L269-L285](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L269-L285)
 
 ### Train Creation and Validation
 
@@ -1934,9 +1934,9 @@ Sources: [src/main/java/com/controller/CheciController.java L65-L85](https://git
 
 验证逻辑通过SQL查询在/checi/save和/checi/add两个端点中实现，这些查询用于检查是否存在符合这些条件的现有条目。
 
-Sources: [src/main/java/com/controller/CheciController.java L112-L142](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L112-L142)
+Sources: [src/main/java/com/controller/CheciController.java L112-L142](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L112-L142)
 
- [src/main/java/com/controller/CheciController.java L312-L336](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L312-L336)
+ [src/main/java/com/controller/CheciController.java L312-L336](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L312-L336)
 
 ### Train Update Process
 
@@ -1957,7 +1957,7 @@ WHERE id != {trainId}
 
 如果此查询未返回任何结果，更新操作将被允许继续执行。
 
-Sources: [src/main/java/com/controller/CheciController.java L147-L179](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L147-L179)
+Sources: [src/main/java/com/controller/CheciController.java L147-L179](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L147-L179)
 
 ### Soft Deletion
 
@@ -1972,7 +1972,7 @@ Sources: [src/main/java/com/controller/CheciController.java L147-L179](https://g
 
 ```
 
-Sources: [src/main/java/com/controller/CheciController.java L184-L198](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L184-L198)
+Sources: [src/main/java/com/controller/CheciController.java L184-L198](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L184-L198)
 
 ### Train Publication Status
 
@@ -1983,11 +1983,11 @@ Sources: [src/main/java/com/controller/CheciController.java L184-L198](https://g
 
 这使管理员能够提前准备列车时刻表，并能够在不删除它们的情况下控制用户对其的可见性。
 
-Sources: [src/main/java/com/entity/CheciEntity.java L134-L137](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L134-L137)
+Sources: [src/main/java/com/entity/CheciEntity.java L134-L137](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciEntity.java#L134-L137)
 
  [src/main/java/com/controller/CheciController.java
 
-134](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L134-L134)
+134](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L134-L134)
 
 ### Batch Import
 
@@ -2001,7 +2001,7 @@ Sources: [src/main/java/com/entity/CheciEntity.java L134-L137](https://github.co
 
 尽管代码中的实现部分被注释（第229至243行），但结构展示了批量导入训练数据的能力。
 
-Sources: [src/main/java/com/controller/CheciController.java L204-L260](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L204-L260)
+Sources: [src/main/java/com/controller/CheciController.java L204-L260](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L204-L260)
 
 ## Integration with Other System Components
 
@@ -2013,17 +2013,17 @@ Sources: [src/main/java/com/controller/CheciController.java L204-L260](https://g
 
 Sources: [src/main/java/com/controller/CheciController.java
 
-83](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L83-L83)
+83](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L83-L83)
 
  [src/main/java/com/controller/CheciController.java
 
-101](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L101-L101)
+101](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L101-L101)
 
 ### User Management
 
 列车管理系统与用户管理系统交互以实施访问控制。例如，在列出列车时，系统会根据已认证用户的角色应用基于用户的过滤器。
 
-Sources: [src/main/java/com/controller/CheciController.java L68-L72](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L68-L72)
+Sources: [src/main/java/com/controller/CheciController.java L68-L72](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L68-L72)
 
 ### Ticket Booking Process
 
@@ -2041,9 +2041,9 @@ Sources: [src/main/java/com/controller/CheciController.java L68-L72](https://git
 # Ticket Booking Process
 
 > **Relevant source files**
-> * [src/main/java/com/controller/CheciOrderController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java)
-> * [src/main/java/com/dao/CheciOrderDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CheciOrderDao.java)
-> * [src/main/java/com/entity/CheciOrderEntity.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java)
+> * [src/main/java/com/controller/CheciOrderController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java)
+> * [src/main/java/com/dao/CheciOrderDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CheciOrderDao.java)
+> * [src/main/java/com/entity/CheciOrderEntity.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java)
 
 本文件描述了火车票预订系统中实现的端到端车票预订流程。它涵盖了从选票到支付及订单管理的整个流程，包括验证步骤、数据处理和退款操作。
 
@@ -2069,9 +2069,9 @@ OrderManagement["Order Management"]
     OrderManagement --> User
 ```
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L318-L354](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L318-L354)
+Sources: [src/main/java/com/controller/CheciOrderController.java L318-L354](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L318-L354)
 
- [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
+ [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
 
 ## Core Components
 
@@ -2110,9 +2110,9 @@ classDiagram
     CheciOrderEntity --> YonghuEntity : references
 ```
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L44-L60](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L44-L60)
+Sources: [src/main/java/com/controller/CheciOrderController.java L44-L60](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L44-L60)
 
- [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
+ [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
 
 ## Ticket Booking Workflow
 
@@ -2153,7 +2153,7 @@ sequenceDiagram
   CheciOrderController-->User: Return success R.ok()
 ```
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L318-L354](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L318-L354)
+Sources: [src/main/java/com/controller/CheciOrderController.java L318-L354](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L318-L354)
 
 ### Key Validation Steps
 
@@ -2182,7 +2182,7 @@ if(balance<0)
     return R.error(511,"余额不够支付");
 ```
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L321-L343](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L321-L343)
+Sources: [src/main/java/com/controller/CheciOrderController.java L321-L343](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L321-L343)
 
 ### Order Creation and Payment Processing
 
@@ -2204,7 +2204,7 @@ yonghuEntity.setNewMoney(balance);
 yonghuService.updateById(yonghuEntity);
 ```
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L344-L353](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L344-L353)
+Sources: [src/main/java/com/controller/CheciOrderController.java L344-L353](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L344-L353)
 
 ## Order States and Management
 
@@ -2218,19 +2218,19 @@ Sources: [src/main/java/com/controller/CheciOrderController.java L344-L353](http
 
 Sources: [src/main/java/com/entity/CheciOrderEntity.java
 
-94](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L94-L94)
+94](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L94-L94)
 
  [src/main/java/com/controller/CheciOrderController.java
 
-344](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L344-L344)
+344](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L344-L344)
 
  [src/main/java/com/controller/CheciOrderController.java
 
-401](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L401-L401)
+401](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L401-L401)
 
  [src/main/java/com/controller/CheciOrderController.java
 
-417](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L417-L417)
+417](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L417-L417)
 
 ## Refund Process
 
@@ -2268,7 +2268,7 @@ sequenceDiagram
   CheciOrderController-->User: Return success
 ```
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L359-L406](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L359-L406)
+Sources: [src/main/java/com/controller/CheciOrderController.java L359-L406](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L359-L406)
 
 ### Refund Logic
 
@@ -2281,7 +2281,7 @@ The refund process:
 5. 更新用户的余额
 6. 将订单状态更改为“退款”（`checiOrderTypes = 2`）
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L384-L404](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L384-L404)
+Sources: [src/main/java/com/controller/CheciOrderController.java L384-L404](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L384-L404)
 
 ## Order Delivery
 
@@ -2294,7 +2294,7 @@ checiOrderEntity.setCheciOrderTypes(3);
 boolean b = checiOrderService.updateById(checiOrderEntity);
 ```
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L412-L423](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L412-L423)
+Sources: [src/main/java/com/controller/CheciOrderController.java L412-L423](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L412-L423)
 
 ## Data Model
 
@@ -2314,7 +2314,7 @@ Sources: [src/main/java/com/controller/CheciOrderController.java L412-L423](http
 | insertTime | Date | Order creation timestamp |
 | createTime | Date | Record creation timestamp |
 
-Sources: [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
+Sources: [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/entity/CheciOrderEntity.java#L30-L303)
 
 ## Related Pages
 
@@ -2326,11 +2326,11 @@ Sources: [src/main/java/com/entity/CheciOrderEntity.java L30-L303](https://githu
 # Additional Features
 
 > **Relevant source files**
-> * [src/main/java/com/controller/CommonController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java)
-> * [src/main/java/com/controller/FileController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java)
-> * [src/main/java/com/controller/LiuyanController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java)
-> * [src/main/java/com/dao/CommonDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CommonDao.java)
-> * [src/main/java/com/dao/LiuyanDao.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/LiuyanDao.java)
+> * [src/main/java/com/controller/CommonController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java)
+> * [src/main/java/com/controller/FileController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java)
+> * [src/main/java/com/controller/LiuyanController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java)
+> * [src/main/java/com/dao/CommonDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CommonDao.java)
+> * [src/main/java/com/dao/LiuyanDao.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/LiuyanDao.java)
 
 ## Purpose and Scope
 
@@ -2375,11 +2375,11 @@ NumericBased["Numeric Reminders"]
     Reminders --> NumericBased
 ```
 
-Sources: [src/main/java/com/controller/CommonController.java L41-L698](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L41-L698)
+Sources: [src/main/java/com/controller/CommonController.java L41-L698](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L41-L698)
 
- [src/main/java/com/controller/FileController.java L36-L110](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L36-L110)
+ [src/main/java/com/controller/FileController.java L36-L110](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L36-L110)
 
- [src/main/java/com/controller/LiuyanController.java L35-L324](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L35-L324)
+ [src/main/java/com/controller/LiuyanController.java L35-L324](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L35-L324)
 
 ## 1. File Management System
 
@@ -2416,7 +2416,7 @@ Upload features include:
 
 文件上传端点实现在`FileController.upload()`方法中，该方法接受一个`MultipartFile`参数。文件以基于时间戳的名称存储以确保唯一性。
 
-Sources: [src/main/java/com/controller/FileController.java L45-L77](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L45-L77)
+Sources: [src/main/java/com/controller/FileController.java L45-L77](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L45-L77)
 
 ### 1.2 File Download
 
@@ -2441,7 +2441,7 @@ Key features:
 * 以字节数组形式流式传输文件内容
 * 缺失文件的错误处理
 
-Sources: [src/main/java/com/controller/FileController.java L82-L108](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L82-L108)
+Sources: [src/main/java/com/controller/FileController.java L82-L108](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L82-L108)
 
 ## 2. User Feedback System (Liuyan)
 
@@ -2526,9 +2526,9 @@ Database["Liuyan Table"]
     Delete --> Database
 ```
 
-Sources: [src/main/java/com/controller/LiuyanController.java L41-L324](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L41-L324)
+Sources: [src/main/java/com/controller/LiuyanController.java L41-L324](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L41-L324)
 
- [src/main/java/com/dao/LiuyanDao.java L1-L22](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/LiuyanDao.java#L1-L22)
+ [src/main/java/com/dao/LiuyanDao.java L1-L22](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/LiuyanDao.java#L1-L22)
 
 ## 3. Data Visualization
 
@@ -2581,7 +2581,7 @@ JoinTable["Process joinTable parameters (if present)"]
 * `yAxis`: 每个系列的数据点数组
 * `图例`: 系列名称数组
 
-Sources: [src/main/java/com/controller/CommonController.java L398-L697](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L398-L697)
+Sources: [src/main/java/com/controller/CommonController.java L398-L697](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L398-L697)
 
 #### 3.1.2 Pie Charts and Other Visualizations
 
@@ -2597,9 +2597,9 @@ Sources: [src/main/java/com/controller/CommonController.java L398-L697](https://
 * Month-level aggregation
 * Day-level aggregation
 
-Sources: [src/main/java/com/controller/CommonController.java L256-L352](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L256-L352)
+Sources: [src/main/java/com/controller/CommonController.java L256-L352](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L256-L352)
 
- [src/main/java/com/dao/CommonDao.java L35-L148](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CommonDao.java#L35-L148)
+ [src/main/java/com/dao/CommonDao.java L35-L148](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CommonDao.java#L35-L148)
 
 ### 3.2 Data Preparation Mechanisms
 
@@ -2638,9 +2638,9 @@ The visualization system supports:
 3. Hierarchical data representation
 4. 可定制的结果格式
 
-Sources: [src/main/java/com/controller/CommonController.java L398-L697](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L398-L697)
+Sources: [src/main/java/com/controller/CommonController.java L398-L697](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L398-L697)
 
- [src/main/java/com/dao/CommonDao.java L95-L148](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CommonDao.java#L95-L148)
+ [src/main/java/com/dao/CommonDao.java L95-L148](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/dao/CommonDao.java#L95-L148)
 
 ## 4. External API Integrations
 
@@ -2670,7 +2670,7 @@ Key features:
 * 图像数据的Base64编码
 * 结构化响应及匹配置信度
 
-Sources: [src/main/java/com/controller/CommonController.java L66-L107](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L66-L107)
+Sources: [src/main/java/com/controller/CommonController.java L66-L107](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L66-L107)
 
 ### 4.2 Geolocation Services
 
@@ -2700,7 +2700,7 @@ ValidateConfig["Validate key existence"]
 
 位置API接受经度和纬度参数，并返回城市和位置信息。
 
-Sources: [src/main/java/com/controller/CommonController.java L54-L64](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L54-L64)
+Sources: [src/main/java/com/controller/CommonController.java L54-L64](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L54-L64)
 
 ## 5. Additional Utility Features
 
@@ -2717,7 +2717,7 @@ Implementation supports:
 * 根据提醒类型设置日期格式
 * 需要关注的项目数量
 
-Sources: [src/main/java/com/controller/CommonController.java L164-L195](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L164-L195)
+Sources: [src/main/java/com/controller/CommonController.java L164-L195](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L164-L195)
 
 ### 5.2 Dynamic Lookup Features
 
@@ -2732,7 +2732,7 @@ Sources: [src/main/java/com/controller/CommonController.java L164-L195](https://
 * 启用动态表单填充
 * Supports cascading dropdowns
 
-Sources: [src/main/java/com/controller/CommonController.java L109-L142](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L109-L142)
+Sources: [src/main/java/com/controller/CommonController.java L109-L142](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L109-L142)
 
 ### 5.3 Batch Processing
 
@@ -2744,7 +2744,7 @@ Sources: [src/main/java/com/controller/CommonController.java L109-L142](https://
 
 这些操作提高了行政任务和数据管理的效率。
 
-Sources: [src/main/java/com/controller/LiuyanController.java L193-L243](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L193-L243)
+Sources: [src/main/java/com/controller/LiuyanController.java L193-L243](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L193-L243)
 
 ## 6. System Integration Points
 
@@ -2775,25 +2775,25 @@ Utils["Utility Functions"]
 
 这些附加功能协同工作，以提供全面的用户体验，通过扩展核心火车票预订功能，增强可用性、报告功能以及与外部系统的集成能力。
 
-Sources: [src/main/java/com/controller/CommonController.java L41-L698](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L41-L698)
+Sources: [src/main/java/com/controller/CommonController.java L41-L698](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L41-L698)
 
- [src/main/java/com/controller/FileController.java L36-L110](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L36-L110)
+ [src/main/java/com/controller/FileController.java L36-L110](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L36-L110)
 
- [src/main/java/com/controller/LiuyanController.java L35-L324](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L35-L324)
+ [src/main/java/com/controller/LiuyanController.java L35-L324](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L35-L324)
 
 # API-Reference.md
 # API Reference
 
 > **Relevant source files**
-> * [src/main/java/com/controller/CheciController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java)
-> * [src/main/java/com/controller/CheciOrderController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java)
-> * [src/main/java/com/controller/CommonController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java)
-> * [src/main/java/com/controller/ConfigController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java)
-> * [src/main/java/com/controller/DictionaryController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java)
-> * [src/main/java/com/controller/FileController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java)
-> * [src/main/java/com/controller/LiuyanController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java)
-> * [src/main/java/com/controller/UsersController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java)
-> * [src/main/java/com/controller/YonghuController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java)
+> * [src/main/java/com/controller/CheciController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java)
+> * [src/main/java/com/controller/CheciOrderController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java)
+> * [src/main/java/com/controller/CommonController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java)
+> * [src/main/java/com/controller/ConfigController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java)
+> * [src/main/java/com/controller/DictionaryController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java)
+> * [src/main/java/com/controller/FileController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java)
+> * [src/main/java/com/controller/LiuyanController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java)
+> * [src/main/java/com/controller/UsersController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java)
+> * [src/main/java/com/controller/YonghuController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java)
 
 ## Overview
 
@@ -2848,13 +2848,13 @@ CommonAPI["/liuyan/*"]
     API --> Support
 ```
 
-Sources: [src/main/java/com/controller/CheciController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java)
+Sources: [src/main/java/com/controller/CheciController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java)
 
- [src/main/java/com/controller/CheciOrderController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java)
+ [src/main/java/com/controller/CheciOrderController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java)
 
- [src/main/java/com/controller/YonghuController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java)
+ [src/main/java/com/controller/YonghuController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java)
 
- [src/main/java/com/controller/UsersController.java](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java)
+ [src/main/java/com/controller/UsersController.java](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java)
 
 ## Authentication
 
@@ -2874,9 +2874,9 @@ Authentication is handled through token-based authentication. After successful l
 | `/users/logout` | GET | Admin logout | Yes |
 | `/yonghu/logout` | GET | Member logout | Yes |
 
-Sources: [src/main/java/com/controller/UsersController.java L41-L57](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L57)
+Sources: [src/main/java/com/controller/UsersController.java L41-L57](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L57)
 
- [src/main/java/com/controller/YonghuController.java L313-L333](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L313-L333)
+ [src/main/java/com/controller/YonghuController.java L313-L333](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L313-L333)
 
 ## Common Response Format
 
@@ -2941,7 +2941,7 @@ classDiagram
 | `/checi/detail/{id}` | GET | Get train details by ID (public) | Yes |
 | `/checi/add` | POST | Create new train (public) | Yes |
 
-Sources: [src/main/java/com/controller/CheciController.java L65-L336](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L65-L336)
+Sources: [src/main/java/com/controller/CheciController.java L65-L336](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciController.java#L65-L336)
 
 ## Ticket Order API (CheciOrderController)
 
@@ -2995,7 +2995,7 @@ classDiagram
 | `/checiOrder/refund` | POST | Process ticket refund | Yes |
 | `/checiOrder/deliver` | POST | Mark order as delivered | Yes |
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L67-L423](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L67-L423)
+Sources: [src/main/java/com/controller/CheciOrderController.java L67-L423](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L67-L423)
 
 ### Book Ticket Process Flow
 
@@ -3009,7 +3009,7 @@ Sources: [src/main/java/com/controller/CheciOrderController.java L67-L423](https
 6. Updates user balance
 7. Returns success confirmation
 
-Sources: [src/main/java/com/controller/CheciOrderController.java L318-L354](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L318-L354)
+Sources: [src/main/java/com/controller/CheciOrderController.java L318-L354](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CheciOrderController.java#L318-L354)
 
 ## User Management API
 
@@ -3059,7 +3059,7 @@ classDiagram
 | `/users/update` | POST | Update admin information | Yes |
 | `/users/delete` | POST | Delete admins | Yes |
 
-Sources: [src/main/java/com/controller/UsersController.java L41-L167](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L167)
+Sources: [src/main/java/com/controller/UsersController.java L41-L167](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/UsersController.java#L41-L167)
 
 ### Member API (YonghuController)
 
@@ -3113,7 +3113,7 @@ classDiagram
 | `/yonghu/detail/{id}` | GET | Get member details by ID (public) | Yes |
 | `/yonghu/add` | POST | Create new member (public) | Yes |
 
-Sources: [src/main/java/com/controller/YonghuController.java L63-L498](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L63-L498)
+Sources: [src/main/java/com/controller/YonghuController.java L63-L498](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/YonghuController.java#L63-L498)
 
 ## Dictionary API (DictionaryController)
 
@@ -3150,7 +3150,7 @@ classDiagram
 | `/dictionary/maxCodeIndex` | POST | Get max code index for a dictionary code | Yes |
 | `/dictionary/batchInsert` | POST | Batch upload dictionary entries | Yes |
 
-Sources: [src/main/java/com/controller/DictionaryController.java L63-L271](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L63-L271)
+Sources: [src/main/java/com/controller/DictionaryController.java L63-L271](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/DictionaryController.java#L63-L271)
 
 ## File API (FileController)
 
@@ -3163,7 +3163,7 @@ Sources: [src/main/java/com/controller/DictionaryController.java L63-L271](https
 | `/file/upload` | POST | Upload a file | Yes |
 | `/file/download` | GET | Download a file | No |
 
-Sources: [src/main/java/com/controller/FileController.java L48-L108](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L48-L108)
+Sources: [src/main/java/com/controller/FileController.java L48-L108](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/FileController.java#L48-L108)
 
 ## Message/Comment API (LiuyanController)
 
@@ -3210,7 +3210,7 @@ classDiagram
 | `/liuyan/detail/{id}` | GET | Get message details by ID (public) | Yes |
 | `/liuyan/add` | POST | Create new message (public) | Yes |
 
-Sources: [src/main/java/com/controller/LiuyanController.java L66-L321](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L66-L321)
+Sources: [src/main/java/com/controller/LiuyanController.java L66-L321](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/LiuyanController.java#L66-L321)
 
 ## Configuration API (ConfigController)
 
@@ -3246,7 +3246,7 @@ classDiagram
 | `/config/update` | POST | Update configuration | Yes |
 | `/config/delete` | POST | Delete configurations | Yes |
 
-Sources: [src/main/java/com/controller/ConfigController.java L37-L110](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L37-L110)
+Sources: [src/main/java/com/controller/ConfigController.java L37-L110](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/ConfigController.java#L37-L110)
 
 ## Common API (CommonController)
 
@@ -3303,7 +3303,7 @@ classDiagram
 | `/barSum` | GET | Get bar chart sum data | Yes |
 | `/barCount` | GET | Get bar chart count data | Yes |
 
-Sources: [src/main/java/com/controller/CommonController.java L54-L697](https://github.com/hjsdjko/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L54-L697)
+Sources: [src/main/java/com/controller/CommonController.java L54-L697](https://github.com/CassiopeiaCode/huochpiaodingpiao/blob/2f69da4e/src/main/java/com/controller/CommonController.java#L54-L697)
 
 ## Pagination
 
@@ -3412,3 +3412,7 @@ Authorization: Bearer eyJhbGciOiJI...
 ## Conclusion
 
 This API reference covers all the endpoints available in the Train Ticket Booking System. For specific implementation details, please refer to the corresponding controller classes. The system follows a consistent RESTful design pattern with standardized request/response formats and error handling.
+
+
+
+- wyx
